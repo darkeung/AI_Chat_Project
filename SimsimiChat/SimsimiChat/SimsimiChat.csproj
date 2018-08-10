@@ -93,6 +93,9 @@
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\packages\Xamarin.Android.Support.Design.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
+    <Reference Include="MusicView">
+      <HintPath>..\packages\MusicView.1.0.0\lib\MusicView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -102,6 +105,7 @@
     <Compile Include="Model\ChatModel.cs" />
     <Compile Include="Helper\HttpDataHandler.cs" />
     <Compile Include="Adapter\CustomAdapter.cs" />
+    <Compile Include="MusicPlayerActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -113,9 +117,13 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\send.png" />
-    <AndroidResource Include="Resources\drawable\simsimi.png" />
     <AndroidResource Include="Resources\layout\List_item_message_send.axml" />
     <AndroidResource Include="Resources\layout\List_item_message_recv.axml" />
+    <AndroidResource Include="Resources\layout\MusicPlayer.axml" />
+    <AndroidResource Include="Resources\Raw\test.mp3" />
+    <AndroidResource Include="Resources\drawable\ic_pause.png" />
+    <AndroidResource Include="Resources\drawable\ic_play.png" />
+    <AndroidResource Include="Resources\drawable\simsimi.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
@@ -127,6 +135,7 @@
     <Folder Include="Model\" />
     <Folder Include="Helper\" />
     <Folder Include="Adapter\" />
+    <Folder Include="Resources\Raw\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" />

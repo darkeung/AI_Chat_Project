@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "SimsimiChat.dll" comes first in this list. */
 		"SimsimiChat.dll",
 		"Bubble.dll",
+		"MusicView.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

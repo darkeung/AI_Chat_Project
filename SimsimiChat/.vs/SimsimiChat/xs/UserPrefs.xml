@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{63B361BE-BB55-49EF-B9F0-91012251AA25}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimsimiChat/MainActivity.cs">
     <Files>
-      <File FileName="SimsimiChat/MainActivity.cs" Line="39" Column="69" />
+      <File FileName="SimsimiChat/MainActivity.cs" Line="12" Column="57" />
+      <File FileName="SimsimiChat/MusicPlayerActivity.cs" Line="23" Column="66" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SimsimiChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5X_API_26" />
