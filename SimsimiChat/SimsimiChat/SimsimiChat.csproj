@@ -106,6 +106,7 @@
     <Compile Include="Helper\HttpDataHandler.cs" />
     <Compile Include="Adapter\CustomAdapter.cs" />
     <Compile Include="MusicPlayerActivity.cs" />
+    <Compile Include="HomePageActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -124,6 +125,28 @@
     <AndroidResource Include="Resources\drawable\ic_pause.png" />
     <AndroidResource Include="Resources\drawable\ic_play.png" />
     <AndroidResource Include="Resources\drawable\simsimi.png" />
+    <AndroidResource Include="Resources\layout\HomePage.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_pause.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_play.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\send.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\simsimi.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_pause.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_play.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\send.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\simsimi.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_pause.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_play.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\send.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\simsimi.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_pause.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_play.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\send.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\simsimi.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_pause.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_play.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\send.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\simsimi.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

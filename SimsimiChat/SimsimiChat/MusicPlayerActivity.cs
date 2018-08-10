@@ -20,7 +20,7 @@ using static Android.Media.MediaPlayer;
 
 namespace SimsimiChat
 {
-    [Activity(Label = "MusicPlayerActivity", MainLauncher = false, Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "MusicPlayerActivity",  Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class MusicPlayerActivity : AppCompatActivity, IOnClickListener, IOnTouchListener, IOnBufferingUpdateListener, IOnCompletionListener
     {
         public ImageButton btn_play_pause;
@@ -35,9 +35,9 @@ namespace SimsimiChat
 
 
 
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MusicPlayer);
 
             musicView = FindViewById<VusikView>(Resource.Id.musicView);
@@ -59,7 +59,7 @@ namespace SimsimiChat
         {
             if (v.Id == Resource.Id.btn_play_pause)
             {
-                new MP3Play(this).Execute("http://mic.duytan.edu.vn:86/ncs.mp3");
+                new MP3Play(this).Execute("https://s0.vocaroo.com/media/download_temp/Vocaroo_s060mfdu8OQH.mp3");
                 musicView.Start();
             }
         }

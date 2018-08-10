@@ -8,9 +8,12 @@ using System.Collections.Generic;
 using SimsimiChat.Helper;  
 using Newtonsoft.Json;  
 using SimsimiChat.Adapter;  
+
+
 namespace SimsimiChat {  
-    [Activity(Label = "SimsimiChat", MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar")]  
+    [Activity(Label = "SimsimiChat",  Theme = "@style/Theme.AppCompat.Light.NoActionBar")]  
     public class MainActivity: AppCompatActivity {  
+       
         public ListView list_of_message;  
         public EditText user_message;  
         FloatingActionButton btn_send;  
@@ -31,6 +34,8 @@ namespace SimsimiChat {
                 new SimsimiAPI(this).Execute(user_message.Text);  
                 user_message.Text = "";  
             };  
+
+           
         }  
     }  
     internal class SimsimiAPI: AsyncTask < string, string, string > {  
@@ -58,4 +63,6 @@ namespace SimsimiChat {
             mainActivity.list_of_message.Adapter = adapter;
         }
     }
+
+
 }
