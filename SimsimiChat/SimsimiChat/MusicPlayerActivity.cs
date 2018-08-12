@@ -63,7 +63,7 @@ namespace SimsimiChat
         {
             if (v.Id == Resource.Id.btn_play_pause)
             {
-                new MP3Play(this).Execute("https://s0.vocaroo.com/media/download_temp/Vocaroo_s060mfdu8OQH.mp3");
+                new MP3Play(this).Execute("https://s0.vocaroo.com/media/download_temp/Vocaroo_s062ccnFxy4f.mp3");
                 musicView.Start();
             }
         }
