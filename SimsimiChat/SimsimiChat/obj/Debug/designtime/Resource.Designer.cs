@@ -2271,6 +2271,9 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0x7F020004
+			public const int icon = 2130837508;
+			
 			// aapt resource value: 0x7F020002
 			public const int ic_pause = 2130837506;
 			
@@ -2322,11 +2325,11 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F02005E
 			public const int notify_panel_notification_icon_bg = 2130837598;
 			
-			// aapt resource value: 0x7F020004
-			public const int send = 2130837508;
-			
 			// aapt resource value: 0x7F020005
-			public const int simsimi = 2130837509;
+			public const int send = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int simsimi = 2130837510;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2431,8 +2434,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A001A
 			public const int bottom = 2131361818;
 			
-			// aapt resource value: 0x7F030012
-			public const int btn_play_pause = 2130903058;
+			// aapt resource value: 0x7F030014
+			public const int btn_play_pause = 2130903060;
 			
 			// aapt resource value: 0x7F030002
 			public const int button1 = 2130903042;
@@ -2469,6 +2472,9 @@ namespace SimsimiChat
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
+			
+			// aapt resource value: 0x7F030005
+			public const int counterBtn = 2130903045;
 			
 			// aapt resource value: 0x7F0A003C
 			public const int custom = 2131361852;
@@ -2515,8 +2521,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A002A
 			public const int expand_activities_button = 2131361834;
 			
-			// aapt resource value: 0x7F030007
-			public const int fab = 2130903047;
+			// aapt resource value: 0x7F030008
+			public const int fab = 2130903048;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2575,8 +2581,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A002D
 			public const int list_item = 2131361837;
 			
-			// aapt resource value: 0x7F030008
-			public const int list_of_message = 2130903048;
+			// aapt resource value: 0x7F030009
+			public const int list_of_message = 2130903049;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2596,8 +2602,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A0014
 			public const int multiply = 2131361812;
 			
-			// aapt resource value: 0x7F030010
-			public const int musicView = 2130903056;
+			// aapt resource value: 0x7F030012
+			public const int musicView = 2130903058;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
@@ -2704,8 +2710,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A0054
 			public const int search_voice_btn = 2131361876;
 			
-			// aapt resource value: 0x7F030013
-			public const int seekBar = 2130903059;
+			// aapt resource value: 0x7F030015
+			public const int seekBar = 2130903061;
 			
 			// aapt resource value: 0x7F0A0055
 			public const int select_dialog_listview = 2131361877;
@@ -2722,8 +2728,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A0011
 			public const int showTitle = 2131361809;
 			
-			// aapt resource value: 0x7F030005
-			public const int simsimi_image = 2130903045;
+			// aapt resource value: 0x7F030006
+			public const int simsimi_image = 2130903046;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -2761,6 +2767,9 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A0052
 			public const int submit_area = 2131361874;
 			
+			// aapt resource value: 0x7F030011
+			public const int surfaceView = 2130903057;
+			
 			// aapt resource value: 0x7F0A000B
 			public const int tabMode = 2131361803;
 			
@@ -2788,8 +2797,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
-			// aapt resource value: 0x7F030006
-			public const int text_message = 2130903046;
+			// aapt resource value: 0x7F030007
+			public const int text_message = 2130903047;
 			
 			// aapt resource value: 0x7F0A005C
 			public const int time = 2131361884;
@@ -2827,8 +2836,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F030011
-			public const int txt_timer = 2130903057;
+			// aapt resource value: 0x7F030013
+			public const int txt_timer = 2130903059;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2839,8 +2848,8 @@ namespace SimsimiChat
 			// aapt resource value: 0x7F0A0012
 			public const int useLogo = 2131361810;
 			
-			// aapt resource value: 0x7F030009
-			public const int user_message = 2130903049;
+			// aapt resource value: 0x7F030010
+			public const int user_message = 2130903056;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3046,7 +3055,10 @@ namespace SimsimiChat
 			public const int Main = 2130968581;
 			
 			// aapt resource value: 0x7F040006
-			public const int MusicPlayer = 2130968582;
+			public const int MediaPlayer = 2130968582;
+			
+			// aapt resource value: 0x7F040007
+			public const int MusicPlayer = 2130968583;
 			
 			// aapt resource value: 0x7F03001B
 			public const int notification_action = 2130903067;
@@ -3272,6 +3284,9 @@ namespace SimsimiChat
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
+			
+			// aapt resource value: 0x7F060005
+			public const int hello = 2131099653;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;

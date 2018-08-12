@@ -107,6 +107,7 @@
     <Compile Include="Adapter\CustomAdapter.cs" />
     <Compile Include="MusicPlayerActivity.cs" />
     <Compile Include="HomePageActivity.cs" />
+    <Compile Include="MediaPlayerActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -147,6 +148,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\send.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\simsimi.png" />
     <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\layout\MediaPlayer.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

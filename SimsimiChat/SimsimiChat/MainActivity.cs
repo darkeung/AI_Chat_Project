@@ -10,14 +10,17 @@ using Newtonsoft.Json;
 using SimsimiChat.Adapter;  
 
 
+
+
 namespace SimsimiChat {  
-    [Activity(Label = "SimsimiChat",  Theme = "@style/Theme.AppCompat.Light.NoActionBar")]  
+    [Activity(Label = "SimsimiChat",  Theme = "@style/Theme.AppCompat.Light.NoActionBar",  ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]  
     public class MainActivity: AppCompatActivity {  
        
         public ListView list_of_message;  
         public EditText user_message;  
         FloatingActionButton btn_send;  
-        public List < ChatModel > list_chat = new List < ChatModel > ();  
+        public List < ChatModel > list_chat = new List < ChatModel > (); 
+
         protected override void OnCreate(Bundle savedInstanceState) {  
             base.OnCreate(savedInstanceState);  
             // Set our view from the "main" layout resource  
@@ -36,8 +39,11 @@ namespace SimsimiChat {
             };  
 
            
-        }  
-    }  
+        }
+
+    } 
+
+
     internal class SimsimiAPI: AsyncTask < string, string, string > {  
         private MainActivity mainActivity;  
         private  
@@ -63,6 +69,7 @@ namespace SimsimiChat {
             mainActivity.list_of_message.Adapter = adapter;
         }
     }
+
 
 
 }

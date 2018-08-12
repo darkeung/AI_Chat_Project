@@ -17,10 +17,11 @@ using static Android.Views.View;
 using Java.Lang;
 using Java.Util.Concurrent;
 using static Android.Media.MediaPlayer;
+using Android.Content.Res;
 
 namespace SimsimiChat
 {
-    [Activity(Label = "MusicPlayerActivity",  Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "MusicPlayerActivity",  Theme = "@style/Theme.AppCompat.Light.NoActionBar", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class MusicPlayerActivity : AppCompatActivity, IOnClickListener, IOnTouchListener, IOnBufferingUpdateListener, IOnCompletionListener
     {
         public ImageButton btn_play_pause;
@@ -55,6 +56,9 @@ namespace SimsimiChat
             mediaPlayer.SetOnCompletionListener(this);
 
         }
+
+       
+
         public void OnClick(View v)
         {
             if (v.Id == Resource.Id.btn_play_pause)
@@ -155,5 +159,6 @@ namespace SimsimiChat
                 musicPlayerActivity.handler.PostDelayed(update, 1000);
             }
         }
+
     }
 }
