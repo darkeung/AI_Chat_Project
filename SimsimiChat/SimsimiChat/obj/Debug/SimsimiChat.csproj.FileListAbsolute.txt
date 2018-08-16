@@ -143,6 +143,5 @@
 /Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/R.cs.flag
 /Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/R.txt
 /Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/uploadflags.txt
-/Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/SimsimiChat.csprojResolveAssemblyReference.cache
 /Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/linksrc/SimsimiChat.pdb
 /Users/darkeung/Documents/AI_Chat_Project/SimsimiChat/SimsimiChat/obj/Debug/linksrc/Mono.Android.pdb
