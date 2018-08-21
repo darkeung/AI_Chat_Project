@@ -47,7 +47,7 @@ namespace SimsimiChat {
     internal class SimsimiAPI: AsyncTask < string, string, string > {  
         private MainActivity mainActivity;  
         private  
-        const string API_KEY = "abcce760-696f-4b1e-a026-1b830849c097";
+        const string API_KEY = "a4309786-a7e7-4e61-afc6-226a0d502410";
         public SimsimiAPI(MainActivity mainActivity)
         {
             this.mainActivity = mainActivity;
