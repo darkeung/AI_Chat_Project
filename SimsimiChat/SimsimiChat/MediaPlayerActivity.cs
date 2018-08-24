@@ -17,7 +17,7 @@ namespace SimsimiChat
         private SurfaceView surfaceView;
         private ISurfaceHolder surfaceHolder;
         private MediaPlayer mediaPlayer;
-        private const string VIDEO_PATH = "https://video-cutter-online.com/download/5l9zCAzf3qkWdbcr.mp4";
+        private const string VIDEO_PATH = "https://video-cutter-online.com/download/ldLvQxbguuNYExxh.mp4";
 
         protected override void OnCreate(Bundle bundle)
         {
