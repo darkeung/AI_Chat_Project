@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{63B361BE-BB55-49EF-B9F0-91012251AA25}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimsimiChat/HomePageActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimsimiChat/MediaPlayerActivity.cs">
     <Files>
-      <File FileName="SimsimiChat/MediaPlayerActivity.cs" Line="19" Column="41" />
+      <File FileName="SimsimiChat/MediaPlayerActivity.cs" Line="20" Column="105" />
       <File FileName="SimsimiChat/MainActivity.cs" Line="33" Column="12" />
       <File FileName="SimsimiChat/HomePageActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SimsimiChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5X_API_28" AndroidDesignerPreferredTheme="Theme.AppCompat.Light" />
+  <MonoDevelop.Ide.ItemProperties.SimsimiChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_4_API_26" AndroidDesignerPreferredTheme="Theme.AppCompat.Light" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
