@@ -1,2 +1,0 @@
-android.app.Application
-com.sit313.SimsimiChat
