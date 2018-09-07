@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{63B361BE-BB55-49EF-B9F0-91012251AA25}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimsimiChat/MediaPlayerActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimsimiChat/MainActivity.cs">
     <Files>
       <File FileName="SimsimiChat/MediaPlayerActivity.cs" Line="20" Column="105" />
-      <File FileName="SimsimiChat/MainActivity.cs" Line="33" Column="12" />
+      <File FileName="SimsimiChat/MainActivity.cs" Line="50" Column="69" />
       <File FileName="SimsimiChat/HomePageActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
